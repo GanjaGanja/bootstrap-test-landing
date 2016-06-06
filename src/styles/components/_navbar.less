@@ -1,0 +1,19 @@
+.navbar {
+	// background-color: fade(@brand-primary, 90%);
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+// overriding Bootstrap defaults: add colors to navbar, make it semi-tranparent //
+//////////////////////////////////////////////////////////////////////////////////
+
+// Basics of a navbar
+@navbar-default-color: @brand-primary;
+@navbar-default-bg: fade(@brand-primary, 95%);
+
+// Navbar links
+@navbar-default-link-color: fade(white, 90%);
+
+// Navbar toggle
+@navbar-default-toggle-hover-bg: darken(@brand-primary, 5%);
+@navbar-default-toggle-icon-bar-bg: fade(white, 60%);
+@navbar-default-toggle-border-color: fade(white, 60%);
